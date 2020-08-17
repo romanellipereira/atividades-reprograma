@@ -12,12 +12,13 @@ const nota06 = parseFloat(input.question('Digite a sexta nota: '));
 const media = ((nota01 + nota02 + nota03 + nota04 + nota05 + nota06) / 6 ).toFixed(2);
 
 if (media >= 7) {
-    console.log('A média da aluna ' + nome + ' é ' + media + ' e ela está aprovada.');
+    console.log('A média da aluna ' + nome + ' é ' + media + ', portanto ela está aprovada.');
 } else if (media < 5) {
-    console.log('A média da aluna ' + nome + ' é ' + media + ' e ela está reprovada.');
+    console.log('A média da aluna ' + nome + ' é ' + media + ', portanto ela está reprovada.');
 } else {
-    console.log('A média da aluna ' + nome + ' é ' + media + ' e ela está em recuperação.');
+    console.log('A média da aluna ' + nome + ' é ' + media + ', portanto ela está em recuperação.');
 }
+    console.log('Fim!')
 
 // Duvidas:
 // como obrigar o usuário a digitar um número, não deixar faltando informação
