@@ -1,4 +1,4 @@
-# {reprograma}
+# ![logo-reprograma](imagens/logo-reprograma.png)
 
 Repositório destinado às atividades semanais do reprograma.
 
