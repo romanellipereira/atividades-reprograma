@@ -40,29 +40,3 @@ let nota06 = parseFloat(input.question('Digite a sexta nota: '));
 
 console.log('Fim!')
 
-/*
-let nota02 = parseFloat(input.question('Digite a segunda nota: '));
-    if (typeof nota02 != Number) {
-        let nota02 = parseFloat(input.question('Por favor, digite uma nota valida: '));
-    }
-let nota03 = parseFloat(input.question('Digite a terceira nota: '));
-    if (typeof nota03 != Number) {
-        let nota03 = parseFloat(input.question('Por favor, digite uma nota valida: '));
-    }
-var nota04 = parseFloat(input.question('Digite a quarta nota: '));
-    if (typeof nota04 != Number) {
-        var nota04 = parseFloat(input.question('Por favor, digite uma nota valida: '));
-    }
-var nota05 = parseFloat(input.question('Digite a quinta nota: '));
-    if (typeof nota05 != Number) {
-        var nota05 = parseFloat(input.question('Por favor, digite uma nota valida: '));
-    }
-var nota06 = parseFloat(input.question('Digite a sexta nota: '));
-    if (typeof nota06 != Number) {
-        var nota06 = parseFloat(input.question('Por favor, digite uma nota valida: '));
-    }
-*/
-
-// Duvidas:
-// como obrigar o usuário a digitar um número, não deixar faltando informação
-// como fazer o código voltar para o início caso nenhuma consição seja satisfeita
