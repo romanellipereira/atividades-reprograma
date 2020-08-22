@@ -1,4 +1,4 @@
-console.log('>> CALCULADORA DE MÉDIA <<');
+console.log('>> BEM VINDA À CALCULADORA DE MÉDIA <<');
 
 const input = require("readline-sync");
 
