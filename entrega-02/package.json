@@ -1,0 +1,15 @@
+{
+  "name": "entrega-02",
+  "version": "1.0.0",
+  "description": "### Crie um arquivo calculadora-de-media.js. Dentro dele, crie um programa que vai receber 6 notas. Calcule a média e diga se a aluna foi aprovada, reprovada ou ficou em recuperação. &nbsp; ```Regras:```",
+  "main": "calculadora.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
