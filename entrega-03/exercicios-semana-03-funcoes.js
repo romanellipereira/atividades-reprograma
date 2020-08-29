@@ -6,7 +6,7 @@ const input = require("readline-sync")
 
 // 2) para esse exercício, as funções de multiplicação e divisão não devem aceitar valores iguais a 0 (zero). Adicione esta lógica nas funções.
 
-// ----------------------------Resposta das questões 1 e 2 --------------------------------
+// ------ Resposta das questões 1 e 2 ---------
 
 // function soma(numero1, numero2) {
 //     return (numero1 + numero2)
