@@ -1,0 +1,15 @@
+{
+  "name": "entrega-03",
+  "version": "1.0.0",
+  "description": "Exercícios propostos pela professora Juliana <3 &nbsp;",
+  "main": "exercicios-semana-03-for.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

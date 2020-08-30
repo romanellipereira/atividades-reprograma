@@ -14,11 +14,11 @@ const input = require("readline-sync")
 // function subtracao(numero1, numero2) {
 //     return (numero1 - numero2)
 // }
-// function multiplicacao(numero1, numero2) {
-//     if(numero1 !== 0 && numero2 !== 0) {
-//         return (numero1 * numero2)
-//      } else return `eror404`
-// }
+function multiplicacao(numero1, numero2) {
+    if(numero1 !== 0 && numero2 !== 0) {
+        return (numero1 * numero2)
+     } else return `eror404`
+}
 // function divisao(numero1, numero2) {
 //     if(numero1 !== 0 && numero2 !== 0) {
 //         return (numero1 / numero2)
