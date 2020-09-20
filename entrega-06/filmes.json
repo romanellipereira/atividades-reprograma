@@ -1,72 +1,72 @@
 [
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0001",
+        "nome": "O Senhor dos Anéis",
+        "ano": "2002",
+        "genero": "Fantasia",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0002",
+        "nome": "O Menino que Descobriu o Vento",
+        "ano": "2019",
+        "genero": "Drama",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação":
+        "id": "0003",
+        "nome": "A Fantástica Fábrica de Chocolate",
+        "ano": "2005",
+        "genero": "Fantasia",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0004",
+        "nome": "Comer, Rezar e Amar",
+        "ano": "2010",
+        "genero": "Drama",
+        "avaliação": "Bom"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0005",
+        "nome": "Sete Vidas",
+        "ano": "2008",
+        "genero": "Drama",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0006",
+        "nome": "I am Mother",
+        "ano": "2019",
+        "genero": "Suspense",
+        "avaliação": "Regular"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0007",
+        "nome": "O Estagiário",
+        "ano": "2015",
+        "genero": "Comédia",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0008",
+        "nome": "Django Livre",
+        "ano": "2012",
+        "genero": "Faroeste",
+        "avaliação": "Ótimo"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0009",
+        "nome": "Garota Exemplar",
+        "ano": "2014",
+        "genero": "Suspense",
+        "avaliação": "Ruim"
     },
     {
-        "id":
-        "nome":
-        "ano":
-        "direcao":
-        "avaliação"
+        "id": "0010",
+        "nome": "A Grande Aposta",
+        "ano": "2015",
+        "genero": "Comédia",
+        "avaliação": "Regular"
     }
 ]
