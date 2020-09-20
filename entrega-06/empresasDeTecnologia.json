@@ -1,62 +1,62 @@
 [
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "001",
+        "nome": "Accenture",
+        "qtd_funcionarios": 1000,
+        "avaliação": "Regular"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "002",
+        "nome": "Pitang",
+        "qtd_funcionarios": 300,
+        "avaliação": "Regular"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "003",
+        "nome": "ThoghtWorks",
+        "qtd_funcionarios": 150,
+        "avaliação": "Ótima"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "004",
+        "nome": "Concret",
+        "qtd_funcionarios": 300,
+        "avaliação": "Boa"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "005",
+        "nome": "Tempest",
+        "qtd_funcionarios": 150,
+        "avaliação": "Boa"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "006",
+        "nome": "Stefanini",
+        "qtd_funcionarios": 500,
+        "avaliação": "Regular"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "007",
+        "nome": "Trinit",
+        "qtd_funcionarios": 50,
+        "avaliação": "Regular"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "008",
+        "nome": "Avanade",
+        "qtd_funcionarios": 300,
+        "avaliação": "Boa"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "009",
+        "nome": "In Loco",
+        "qtd_funcionarios": 200,
+        "avaliação": "Boa"
     },
     {
-        "id":
-        "nome":
-        "qtd_funcionarios":
-        "avaliação":
+        "id": "010",
+        "nome": "Guava",
+        "qtd_funcionarios": 40,
+        "avaliação": "Ótima"
     }
 ]
