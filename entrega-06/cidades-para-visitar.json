@@ -1,1 +1,72 @@
-
+[
+    {
+        "id": "001",
+        "cidade": "Vancouver",
+        "pais": "Canadá",
+        "continente": "América do Norte",
+        "visitada": true
+    },
+    {
+        "id": "002",
+        "cidade": "Seattle",
+        "pais": "Estados Unidos da América (EUA)",
+        "continente": "América do Norte",
+        "visitada": true
+    },
+    {
+        "id": "003",
+        "cidade": "Nova Iorque",
+        "pais": "Estados Unidos da América (EUA)",
+        "continente": "América do Norte",
+        "visitada": false
+    },
+    {
+        "id": "004",
+        "cidade": "Londres",
+        "pais": "Inglaterra",
+        "continente": "Europa",
+        "visitada": false
+    },
+    {
+        "id": "005",
+        "cidade": "Alberta",
+        "pais": "Canadá",
+        "continente": "América do Norte",
+        "visitada": false
+    },
+    {
+        "id": "006",
+        "cidade": "Chicago",
+        "pais": "Estados Unidos da América (EUA)",
+        "continente": "",
+        "visitada": true
+    },
+    {
+        "id": "007",
+        "cidade": "Budapeste",
+        "pais": "Hungria",
+        "continente": "Europa",
+        "visitada": false
+    },
+    {
+        "id": "008",
+        "cidade": "Istambul",
+        "pais": "Turquia",
+        "continente": "Europa",
+        "visitada": false
+    },
+    {
+        "id": "009",
+        "cidade": "Berlim",
+        "pais": "Alemanha",
+        "continente": "Europa",
+        "visitada": false
+    },
+    {
+        "id": "010",
+        "cidade": "Buenos Aires",
+        "pais": "Argentina",
+        "continente": "América do Sul",
+        "visitada": false
+    }
+]

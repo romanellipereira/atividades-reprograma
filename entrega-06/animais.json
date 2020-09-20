@@ -1,1 +1,62 @@
-
+[
+    {
+        "id": "0001",
+        "nome_comum": "cachorro",
+        "nome_cientifico": "Canis lupus familiaris",
+        "especie": "mamifero"
+    },
+    {
+        "id": "0002",
+        "nome_comum": "canário",
+        "nome_cientifico": "Serinus canaria",
+        "especie": "ave"
+    },
+    {
+        "id": "0003",
+        "nome_comum": "betta",
+        "nome_cientifico": "Betta picta",
+        "especie": "peixe"
+    },
+    {
+        "id": "0004",
+        "nome_comum": "hamster",
+        "nome_cientifico": "Mesocricetus auratus",
+        "especie": "mamifero"
+    },
+    {
+        "id": "0005",
+        "nome_comum": "coelho",
+        "nome_cientifico": "Oryctolagus cuniculus",
+        "especie": "mamifero"
+    },
+    {
+        "id": "0006",
+        "nome_comum": "papagaio",
+        "nome_cientifico": "Amazona aestiva",
+        "especie": "ave"
+    },
+    {
+        "id": "0007",
+        "nome_comum": "tartaruga",
+        "nome_cientifico": "Caretta caretta",
+        "especie": "reptil"
+    },
+    {
+        "id": "0008",
+        "nome_comum": "porco da Índia",
+        "nome_cientifico": "Cavia porcellus",
+        "especie": "mamifero"
+    },
+    {
+        "id": "0009",
+        "nome_comum": "lagarto",
+        "nome_cientifico": "Tupinambis teguixim",
+        "especie": "reptil"
+    },
+    {
+        "id": "0010",
+        "nome_comum": "peixe-palhaço",
+        "nome_cientifico": "Amphiprion frenatus",
+        "especie": "peixe"
+    }
+]
