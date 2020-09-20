@@ -1,0 +1,62 @@
+[
+    {
+        "id": "001" ,
+        "nome": "Nirvana",
+        "qdt_albuns": 12,
+        "musica_mais_tocada": "Smells Like Teen Spirit"
+    },
+    {
+        "id": "002",
+        "nome": "Pink Floyd",
+        "qdt_albuns": 28,
+        "musica_mais_tocada": "Another Brick in the Wall"
+    },
+    {
+        "id": "003",
+        "nome": "The Rolling Stones",
+        "qdt_albuns": 70,
+        "musica_mais_tocada": "(I Can't Get No) Satisfaction"
+    },
+    {
+        "id": "004",
+        "nome": "Iron Maiden",
+        "qdt_albuns": 34,
+        "musica_mais_tocada": "The Trooper"
+    },
+    {
+        "id": "005",
+        "nome": "AC/DC",
+        "qdt_albuns": 38,
+        "musica_mais_tocada": "Back In Black"
+    },
+    {
+        "id": "006",
+        "nome":"Aerosmith",
+        "qdt_albuns": 27,
+        "musica_mais_tocada": "Dream On"
+    },
+    {
+        "id": "007",
+        "nome": "Guns N' Roses",
+        "qdt_albuns": 9,
+        "musica_mais_tocada": "Sweet Child O' Mine"
+    },
+    {
+        "id": "008",
+        "nome": "Metallica",
+        "qdt_albuns": 15,
+        "musica_mais_tocada": "Nothing Else Matters"
+    },
+    {
+        "id": "009",
+        "nome": "Led Zeppelin",
+        "qdt_albuns": 22,
+        "musica_mais_tocada": "Stairway To Heaven"
+    },
+    {
+        "id": "010",
+        "nome": "Queen",
+        "qdt_albuns": 28,
+        "musica_mais_tocada": "Bohemian Rhapsody"
+    }
+]
