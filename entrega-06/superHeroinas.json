@@ -1,0 +1,62 @@
+[
+    {
+        "id": "001",
+        "heroi": "Capitã Marvel",
+        "universo": "Marvel",
+        "poder": "indestrutibilidade"
+    },
+    {
+        "id": "002",
+        "heroi": "Mulher-Maravilha",
+        "universo": "DC",
+        "poder": "Força"
+    },
+    {
+        "id": "003",
+        "heroi": "Feiticeira Escarlate",
+        "universo": "Marvel",
+        "poder": "Magia"
+    },
+    {
+        "id": "004",
+        "heroi": "Supergirl",
+        "universo": "DC",
+        "poder": "Força"
+    },
+    {
+        "id": "005",
+        "heroi": "Ravena",
+        "universo": "DC",
+        "poder": "Magia"
+    },
+    {
+        "id": "006",
+        "heroi": "Mulher-Hulk",
+        "universo": "Marvel",
+        "poder": "Força"
+    },
+    {
+        "id": "007",
+        "heroi": "Gamora",
+        "universo": "Marvel",
+        "poder": "Agilidade"
+    },
+    {
+        "id": "008",
+        "heroi": "Tempestade",
+        "universo": "Marvel",
+        "poder": "Controle do tempo"
+    },
+    {
+        "id": "009",
+        "heroi": "Estelar",
+        "universo": "DC",
+        "poder": "Raio"
+    },
+    {
+        "id": "010",
+        "heroi": "Mulher Invisível",
+        "universo": "Marvel",
+        "poder": "Invisibilidade"
+    }
+]

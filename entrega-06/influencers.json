@@ -1,1 +1,72 @@
-
+[
+    {
+        "id": "001",
+        "arroba": "tamanho50",
+        "categoria": ["moda", "comportamento", "estilo de vida"],
+        "seguidores": "24800",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "002",
+        "arroba": "kittynocanada",
+        "categoria": "estilo de vida",
+        "seguidores": "37200",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "003",
+        "arroba": "nataliaarcuri",
+        "categoria": "finanças",
+        "seguidores": "2500000",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "004",
+        "arroba": "tatahfavero",
+        "categoria": "estilo de vida",
+        "seguidores": "99100",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "005",
+        "arroba": "jvn",
+        "categoria": "comportamento",
+        "seguidores": "5300000",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "006",
+        "arroba": "pastorhenriquevieira",
+        "categoria": "comportamento",
+        "seguidores": "415000",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "007",
+        "arroba": "murilogun",
+        "categoria": "comportamento",
+        "seguidores": "624000",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "008",
+        "arroba": "djamilaribeiro1",
+        "categoria": "comportamento",
+        "seguidores": "1000000",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "009",
+        "arroba": "caiorevela",
+        "categoria": ["comportamento", "estilo de vida"],
+        "seguidores": "95400",
+        "ultima_visita": "20/09/2020"
+    },
+    {
+        "id": "010",
+        "arroba": "desintoxicacaodoromantismo",
+        "categoria": "comportamento",
+        "seguidores": "249000",
+        "ultima_visita": "20/09/2020"
+    }
+]
