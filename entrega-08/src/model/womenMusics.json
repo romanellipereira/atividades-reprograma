@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "titulo": "bad girls",
+        "duracao": "03:48",
+        "artista": "m.i.a.",
+        "album": "matangi",
+        "ano": 2013
+    },
+    {
+        "id": 2,
+        "titulo": "diva",
+        "duracao": "03:20",
+        "artista": "beyonce",
+        "album": "i am... sasha fierce",
+        "ano": 2008
+    },
+    {
+        "id": 3,
+        "titulo": "good as hell",
+        "duracao": "02:39",
+        "artista": "lizzo",
+        "album": "cuz I love you",
+        "ano": 2019
+    },
+    {
+        "id": 4,
+        "titulo": "run the world (girls)",
+        "duracao": "03:56",
+        "artista": "beyonce",
+        "album": "4",
+        "ano": 2011
+    },
+    {
+        "id": 5,
+        "titulo": "7 rings",
+        "duracao": "02:59",
+        "artista": "ariana grande",
+        "album": "thank you, next",
+        "ano": 2019
+    },
+    {
+        "id": 6,
+        "titulo": "only girl (in the world)",
+        "duracao": "03:55",
+        "artista": "rihanna",
+        "album": "loud",
+        "ano": 2010
+    },
+    {
+        "id": 7,
+        "titulo": "money",
+        "duracao": "03:03",
+        "artista": "cardi b",
+        "album": "money",
+        "ano": 2018
+    },
+    {
+        "id": 8,
+        "titulo": "that's my girl",
+        "duracao": "03:24",
+        "artista": "fifth harmony",
+        "album": "7/27",
+        "ano": 2016
+    },
+    {
+        "id": 9,
+        "titulo": "you oughta know",
+        "duracao": "04:09",
+        "artista":"alanis morissette",
+        "album": "jagged little pill",
+        "ano": 1995
+    },
+    {
+        "id": 10,
+        "titulo": "so what",
+        "duracao": "03:35",
+        "artista": "p!nk",
+        "album": "funhouse",
+        "ano": 2008
+    },
+    {
+        "id": 11,
+        "titulo": "kill this love",
+        "duracao": "03:09",
+        "artista": "blackpink",
+        "album": "kill this love",
+        "ano": 2019
+    },
+    {
+        "id": 12,
+        "titulo": "we can't stop",
+        "duracao": "03:51",
+        "artista": "miley cyrus",
+        "album": "bangerz",
+        "ano": 2013
+    }
+]
