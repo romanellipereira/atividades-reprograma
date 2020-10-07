@@ -3,7 +3,6 @@ const fs = require("fs");
 const { json } = require("body-parser");
 
 const getAll = (req, res) => {
-    console.log(req.url);
     res.status(200).send(books);
 };
 
@@ -23,7 +22,7 @@ const postBook = (req, res) => {
 };
 
 const getByTitle = (req, res) => {
-    const id = req.params.title;
+    const title = req.params.title;
 
     res.status(200).send(books.filter((book) => book.title == title));
 };
@@ -55,6 +54,21 @@ const getByMaxPrice = (req, res) => {
     res.status(200).send(books.filter((book) => book.price <= maxPrice));
 };
 
+const deleteBook = (req, res) => {
+    const idBook = req.params.id;
+    const filteredBook = books.find((book) => book.id == idBook );
+    const index = books.indexOf(filteredBook);
+    books.splice(index, 1);
+
+    fs.writeFile("./src/model/books.json" , JSON.stringify(books), 'utf8', function(err) {
+      if (err) {
+        return res.status(424).send({ message: err });
+    }
+    console.log("Update successful!");
+    });
+    res.status(200).send(books);
+};
+
 module.exports = {
     getAll,
     postBook,
@@ -62,6 +76,7 @@ module.exports = {
     getByAuthor,
     getByPublishing,
     getAvailableTitles,
-    getByMaxPrice
-}
+    getByMaxPrice,
+    deleteBook
+};
 
