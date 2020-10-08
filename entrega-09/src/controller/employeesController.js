@@ -6,9 +6,64 @@ const getAll = (req, res) => {
     res.status(200).send(employees);
 };
 
+const getEmployeeByName = (req, res) => {
+    const name = req.params.name
+    const employeeByName = employees.filter((employee) => employee.name == name)
 
+    res.status(200).send(employeeByName);
+};
+
+// pergutar se existe forma de fazer com filter!
+const getAgeByID = (req, res) => {
+    const id = req.params.id;
+    const age = employees.map((employee) => {
+        if (employee.id == id) {
+            return employee.age
+        }
+    });
+    res.status(200).send(`Employee ID ${id} is ${age} years old.`);
+};
+
+const getByID = (req, res) => {
+    const id = req.params.id
+    const employeeByID = employees.filter((employee) => employee.id == id)
+
+    res.status(200).send(employeeByID);
+};
+
+// pergutar por que trouxe null no primeiro resultado!
+const getByDepartment = (req, res) => {
+    const department = req.params.department
+    const employeesByDepartment = employees.map((employee) => {
+        if (employee.department == department) {
+            return employee.name
+        }
+    })
+    res.status(200).send(employeesByDepartment);
+};
+
+const postEmployee = (req, res) => {
+    console.log(req.body);
+    const id = employees.length + 1
+    const { name , age , ssn , address , phone , department , wages } = req.body;
+    employees.push({ id , name , age , ssn , address , phone , department , wages });
+
+    fs.writeFile("./src/model/employees.json" , JSON.stringify(employees) , 'utf8' , function(err) {
+        if (err) {
+            return res.status(424).send({ message: err });
+        }
+        console.log("Update successful!");
+    });
+    res.status(201).send(employees);
+};
 
 
 module.exports = {
-    getAll
+    getAll,
+    getEmployeeByName,
+    getAgeByID,
+    getByID,
+    getByDepartment,
+
+    postEmployee
 }

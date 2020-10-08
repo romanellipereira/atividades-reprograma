@@ -20,7 +20,7 @@ Implementação de um sistema de uma livraria no centro de New York.
 * *Endereço;*
 * *Telefone;*
 * *Departamento;*
-* *Salário*
+* *Salário (por hora)*
 
 3 - Nossa livraria gostaria de garantir que será possível a exclusão do registro de determinado livro.
 
