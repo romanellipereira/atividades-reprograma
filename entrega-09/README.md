@@ -16,9 +16,11 @@ Implementação de um sistema de uma livraria no centro de New York.
 * *ID;*
 * *Nome do funcionário;*
 * *Idade;*
-* *Cargo;*
-* *Salário;*
-* *Data de admissão*
+* *Documento de identidade;*
+* *Endereço;*
+* *Telefone;*
+* *Departamento;*
+* *Salário*
 
 3 - Nossa livraria gostaria de garantir que será possível a exclusão do registro de determinado livro.
 
