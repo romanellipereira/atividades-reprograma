@@ -38,6 +38,14 @@ const getByDepartment = (req, res) => {
     res.status(200).send(allDepartment);
 };
 
+const getByMaxWage = (req, res) => {
+    const maxWages = req.params.wages;
+    const employeesDataByWages = employees.filter(employee => employee.wages <= maxWages);
+    const employeesNameByWages = employeesDataByWages.map(employee => employee.name);
+
+    res.status(200).send(employeesNameByWages);
+};
+
 const postEmployee = (req, res) => {
     console.log(req.body);
     const id = employees.length + 1
@@ -53,6 +61,20 @@ const postEmployee = (req, res) => {
     res.status(201).send(employees);
 };
 
+const deleteEmployee = (req, res) => {
+    const idEmployee = req.params.id;
+    const filteredEmployee = employees.find((employee) => employee.id == idEmployee);
+    const index = employees.indexOf(filteredEmployee);
+    employees.splice(index, 1);
+
+    fs.writeFile("./src/model/employees.json" , JSON.stringify(employees), 'utf8', function(err) {
+      if (err) {
+        return res.status(424).send({ message: err });
+    }
+    console.log("Update successful!");
+    });
+    res.status(200).send(employees);
+};
 
 module.exports = {
     getAll,
@@ -60,6 +82,7 @@ module.exports = {
     getAgeByID,
     getByID,
     getByDepartment,
-
-    postEmployee
-}
+    getByMaxWage,
+    postEmployee,
+    deleteEmployee
+};
