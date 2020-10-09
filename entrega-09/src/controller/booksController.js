@@ -9,8 +9,8 @@ const getAll = (req, res) => {
 const postBook = (req, res) => {
     console.log(req.body);
     const id = books.length + 1
-    const {  title , author , publishing , price , stock } = req.body;
-    books.push({ id , title , author , publishing , price , stock });
+    const {  title , author , publishing , category , price , stock } = req.body;
+    books.push({ id , title , author , publishing , category , price , stock });
 
     fs.writeFile("./src/model/books.json" , JSON.stringify(books) , 'utf8' , function(err) {
         if (err) {
