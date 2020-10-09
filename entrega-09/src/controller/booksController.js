@@ -29,8 +29,18 @@ const getByTitle = (req, res) => {
 
 const getByAuthor = (req, res) => {
     const author = req.params.author;
+    const booksDataByAuthor = books.filter(book => book.author == author);
+    const titlesByAuthor = booksDataByAuthor.map(book => book.title);
 
-    res.status(200).send(books.filter((book) => book.author == author));
+    res.status(200).send(titlesByAuthor);
+};
+
+const getByCategory = (req, res) => {
+    const category = req.params.category;
+    const booksDataByCategory = books.filter(book => book.category == category);
+    const titlesByCategory = booksDataByCategory.map(book => book.title);
+
+    res.status(200).send(titlesByCategory);
 };
 
 const getByPublishing = (req, res) => {
@@ -74,6 +84,7 @@ module.exports = {
     postBook,
     getByTitle,
     getByAuthor,
+    getByCategory,
     getByPublishing,
     getAvailableTitles,
     getByMaxPrice,
