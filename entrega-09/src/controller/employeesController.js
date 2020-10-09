@@ -13,7 +13,6 @@ const getEmployeeByName = (req, res) => {
     res.status(200).send(employeeByName);
 };
 
-// pergutar se existe forma de fazer com filter!
 const getAgeByID = (req, res) => {
     const id = req.params.id;
     const age = employees.map((employee) => {
@@ -31,15 +30,12 @@ const getByID = (req, res) => {
     res.status(200).send(employeeByID);
 };
 
-// pergutar por que trouxe null no primeiro resultado!
 const getByDepartment = (req, res) => {
     const department = req.params.department
-    const employeesByDepartment = employees.map((employee) => {
-        if (employee.department == department) {
-            return employee.name
-        }
-    })
-    res.status(200).send(employeesByDepartment);
+    const employeesByDepartment = employees.filter(employee => employee.department == department);
+    const allDepartment = employeesByDepartment.map(employee => employee.name);
+
+    res.status(200).send(allDepartment);
 };
 
 const postEmployee = (req, res) => {

@@ -1,1 +1,19 @@
-[{"id":1,"name":"Katine Boydell","age":34,"ssn":240509296,"address":"71731 Linden Alley","phone":"797-574-3724","department":"Accounting","wages":23},{"id":2,"name":"martha","age":45,"ssn":130274813,"address":"414 daystar lane","phone":"184-101-0129","department":"legal","wages":59}]
+[{
+    "id": 1,
+    "name": "Katine Boydell",
+    "age": 34,
+    "ssn": 240509296,
+    "address": "71731 Linden Alley",
+    "phone": "797-574-3724",
+    "department": "Accounting",
+    "wages": 23
+}, {
+    "id": 2,
+    "name": "martha",
+    "age": 45,
+    "ssn": 130274813,
+    "address": "414 daystar lane",
+    "phone": "184-101-0129",
+    "department": "legal",
+    "wages": 59
+}]

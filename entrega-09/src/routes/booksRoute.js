@@ -9,6 +9,6 @@ router.get("/author/:author", controller.getByAuthor);
 router.get("/publishing/:publishing", controller.getByPublishing);
 router.get("/available", controller.getAvailableTitles);
 router.get("/maxprice/:price", controller.getByMaxPrice);
-router.delete("/:id", controller.deleteBook);
+router.delete("/delete/:id", controller.deleteBook);
 
 module.exports = router;
