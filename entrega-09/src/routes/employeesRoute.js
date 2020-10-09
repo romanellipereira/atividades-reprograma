@@ -9,6 +9,6 @@ router.get("/age/:id", controller.getAgeByID);
 router.get("/department/:department", controller.getByDepartment);
 router.get("/wages/:wages", controller.getByMaxWage);
 router.post("/include", controller.postEmployee);
-router.delete("/delete", controller.deleteEmployee);
+router.delete("/delete/:id", controller.deleteEmployee);
 
 module.exports = router;
