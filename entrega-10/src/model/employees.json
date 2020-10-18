@@ -1,0 +1,100 @@
+[{
+    "id": 1,
+    "name": "ashley savatier",
+    "age": 36,
+    "ssn": "795320604",
+    "address": "8 oakridge lane",
+    "phone": "326-804-0363",
+    "department": "business development",
+    "wages": 29
+}, {
+    "id": 2,
+    "name": "linnea dawney",
+    "age": 23,
+    "ssn": "806826075",
+    "address": "39557 manitowish street",
+    "phone": "915-252-8503",
+    "department": "sales",
+    "wages": 18
+}, {
+    "id": 3,
+    "name": "lissi serrurier",
+    "age": 25,
+    "ssn": "237892633",
+    "address": "843 glacier hill court",
+    "phone": "900-492-4285",
+    "department": "marketing",
+    "wages": 24
+}, {
+    "id": 4,
+    "name": "nissy hartle",
+    "age": 37,
+    "ssn": "453709855",
+    "address": "5 ruskin drive",
+    "phone": "292-267-7516",
+    "department": "human resources",
+    "wages": 30
+}, {
+    "id": 5,
+    "name": "adelaide brisard",
+    "age": 45,
+    "ssn": "605705148",
+    "address": "302 straubel plaza",
+    "phone": "812-783-8685",
+    "department": "legal",
+    "wages": 55
+}, {
+    "id": 6,
+    "name": "briana hairsnape",
+    "age": 20,
+    "ssn": "69397465",
+    "address": "5 kensington point",
+    "phone": "153-147-9909",
+    "department": "sales",
+    "wages": 18
+}, {
+    "id": 7,
+    "name": "katine boydell",
+    "age": 32,
+    "ssn": "240509296",
+    "address": "71731 linden alley",
+    "phone": "797-574-3724",
+    "department": "accounting",
+    "wages": 24
+}, {
+    "id": 8,
+    "name": "danyelle battey",
+    "age": 39,
+    "ssn": "222766851",
+    "address": "1 green avenue",
+    "phone": "986-432-3578",
+    "department": "product management",
+    "wages": 52
+}, {
+    "id": 9,
+    "name": "amalita dundon",
+    "age": 29,
+    "ssn": "30091909",
+    "address": "1498 hauk point",
+    "phone": "620-134-6827",
+    "department": "support",
+    "wages": 24
+}, {
+    "id": 10,
+    "name": "helga southern",
+    "age": 47,
+    "ssn": "295401523",
+    "address": "32 boyd drive",
+    "phone": "341-607-6043",
+    "department": "business development",
+    "wages": 60
+}, {
+    "id": 11,
+    "name": "carolyn caven",
+    "age": 34,
+    "ssn": "1548875279",
+    "address": "13 lunder plaza",
+    "phone": "764-373-3340",
+    "department": "sales",
+    "wages": 30
+}]
