@@ -2,17 +2,17 @@
 
 Repositório destinado às atividades semanais do reprograma.
 
-* entrega-01 *(13/08/2020)*
-* entrega-02 *(16/08/2020)*
-* entrega-03 *(29/08/2020)*
-* entrega-04 *(pendente)*
-* entrega-05 *(pendente)*
-* entrega-06 *(pendente)*
-* entrega-07 *(pendente)*
-* entrega-08 *(pendente)*
-* entrega-09 *(pendente)*
-* entrega-10 *(pendente)*
-* entrega-11 *(pendente)*
+* entrega-01 entregue
+* entrega-02 entregue
+* entrega-03 entregue
+* entrega-04 entregue
+* entrega-05 entregue
+* entrega-06 entregue
+* entrega-07 entregue
+* entrega-08 entregue
+* entrega-09 entregue
+* entrega-10 entregue
+* entrega-11 entregue
 * entrega-12 *(pendente)*
 * entrega-13 *(pendente)*
 * entrega-14 *(pendente)*
